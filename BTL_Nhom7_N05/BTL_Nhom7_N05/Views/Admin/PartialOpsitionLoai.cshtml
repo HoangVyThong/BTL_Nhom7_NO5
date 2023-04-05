@@ -1,0 +1,8 @@
+﻿@using BTL_Nhom7_N05.Models
+@model List<LoaiThietBi>
+@{
+    foreach (var item in Model)
+    {
+        <option>@item.TenLoai</option>
+    }
+}
